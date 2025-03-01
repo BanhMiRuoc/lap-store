@@ -1,13 +1,13 @@
-package com.ecom.lap_store;
+package com.ecom.laptopstore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LapStoreApplication {
+public class LaptopstoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LapStoreApplication.class, args);
+		SpringApplication.run(LaptopstoreApplication.class, args);
 	}
 
 }

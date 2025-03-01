@@ -1,10 +1,10 @@
-package com.ecom.lap_store;
+package com.ecom.laptopstore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LapStoreApplicationTests {
+class LaptopstoreApplicationTests {
 
 	@Test
 	void contextLoads() {
