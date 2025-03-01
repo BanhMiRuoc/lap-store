@@ -1,4 +1,4 @@
-package com.tt.lap_store;
+package com.ecom.lap_store;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
