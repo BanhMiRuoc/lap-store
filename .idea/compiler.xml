@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lap-store" />
-        <module name="laptopstore" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="laptopstore" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
