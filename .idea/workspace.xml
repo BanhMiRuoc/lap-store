@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="add bootstrap and script and awe">
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="new change for base, index, login and register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,8 @@
       <workItem from="1741651831073" duration="100000" />
       <workItem from="1741658155628" duration="3399000" />
       <workItem from="1741755130959" duration="7970000" />
-      <workItem from="1741926124571" duration="1941000" />
+      <workItem from="1741926124571" duration="2488000" />
+      <workItem from="1741933178440" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -149,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741772713612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new change for base, index, login and register">
+      <option name="closed" value="true" />
+      <created>1741928319485</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741928319485</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +177,7 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="init basecode of project" />
     <MESSAGE value="add bootstrap and script and awe" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bootstrap and script and awe" />
+    <MESSAGE value="new change for base, index, login and register" />
+    <option name="LAST_COMMIT_MESSAGE" value="new change for base, index, login and register" />
   </component>
 </project>
