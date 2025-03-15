@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="init basecode of project">
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/Controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/Controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/templates/register.html" afterDir="false" />
-    </list>
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="add dependency spring boot devtool" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +61,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.LapStoreApplication.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "ct",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/HK2/DP/final/lap-store",
