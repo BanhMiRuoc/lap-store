@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="new change for base, index, login and register">
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="yes">
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/Controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/Controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/templates/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,12 +47,12 @@
     }
   }
 }</component>
-  <component name="GitLabMergeRequestsSettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;first&quot;: &quot;https://gitlab.duthu.net/S52200051/lap-store.git&quot;,
-    &quot;second&quot;: &quot;9337691b-6545-4f74-b7d8-9f76cf50b769&quot;
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "https://gitlab.duthu.net/S52200051/lap-store.git",
+    "second": "d8f8a094-9fd9-4d38-abeb-15ff8a36032b"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -60,6 +68,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -67,9 +76,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.LapStoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LapStoreApplication.executor&quot;: &quot;Coverage&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ct&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/HK2/DP/final/lap-store&quot;,
@@ -100,8 +109,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -123,6 +132,7 @@
       <workItem from="1741755130959" duration="7970000" />
       <workItem from="1741926124571" duration="2488000" />
       <workItem from="1741933178440" duration="1239000" />
+      <workItem from="1742097305462" duration="6671000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -179,5 +189,8 @@
     <MESSAGE value="add bootstrap and script and awe" />
     <MESSAGE value="new change for base, index, login and register" />
     <option name="LAST_COMMIT_MESSAGE" value="new change for base, index, login and register" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742036990895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
