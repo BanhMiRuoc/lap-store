@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns::ths="http://www.thymeleaf.org"
+            th:replace="~{base::layout(~{::section})}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container p-5">
+            <p class="text-center fs-3 mt-4">Admin Dashboard</p>
+            <div class="row p-5">
+                <div class="col-md-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-sh">
+                            <div class="card-body text-center">
+                                <i class="fa-solid fa-plus fa-2x text-primary"></i>
+                                <p class="fs-4 fw-bold">Add product</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
