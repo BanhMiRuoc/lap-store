@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns::ths="http://www.thymeleaf.org"
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
             th:replace="~{base::layout(~{::section})}">
 <head>
     <meta charset="UTF-8">
@@ -11,16 +11,67 @@
         <div class="container p-5">
             <p class="text-center fs-3 mt-4">Admin Dashboard</p>
             <div class="row p-5">
-                <div class="col-md-4">
+                <div class="col-md-4 mt-4">
                     <a href="#" class="text-decoration-none">
                         <div class="card card-sh">
-                            <div class="card-body text-center">
-                                <i class="fa-solid fa-plus fa-2x text-primary"></i>
-                                <p class="fs-4 fw-bold">Add product</p>
+                            <div class="card-body text-center text-primary">
+                                <i class="fa-solid fa-square-plus fa-3x"></i>
+                                <h4 >Add Product</h4>
                             </div>
                         </div>
                     </a>
                 </div>
+                <div class="col-md-4 mt-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-sh">
+                            <div class="card-body text-center text-primary">
+                                <i class="fa-solid fa-list fa-3x"></i>
+                                <h4 >Category</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-sh">
+                            <div class="card-body text-center text-primary">
+                                <i class="fa-solid fa-table-list fa-3x "></i>
+                                <h4>View Product</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-sh">
+                            <div class="card-body text-center text-primary">
+                                <i class="fa-solid fa-box-open fa-3x "></i>
+                                <h4 >Orders</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-sh">
+                            <div class="card-body text-center text-primary">
+                                <i class="fa-solid fa-user-circle fa-3x "></i>
+                                <h4 >Users</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <a href="#" class="text-decoration-none">
+                        <div class="card card-sh">
+                            <div class="card-body text-center text-primary">
+                                <i class="fa-solid fa-user-plus fa-3x"></i>
+                                <h4 >Admin</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>

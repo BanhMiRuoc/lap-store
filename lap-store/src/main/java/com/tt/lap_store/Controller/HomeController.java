@@ -1,4 +1,4 @@
-package Controller;
+package com.tt.lap_store.Controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
