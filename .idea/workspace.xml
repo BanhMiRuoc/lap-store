@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Add Laptop Banner, Laptop image">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" afterDir="false" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/CommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/CommonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/test/java/com/tt/lap_store/LapStoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/test/java/com/tt/lap_store/LapStoreApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/com/tt/lap_store/LapStoreApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,7 +53,7 @@
 }</component>
   <component name="GitLabMergeRequestsSettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;first&quot;: &quot;https://gitlab.duthu.net/S52200051/lap-store.git&quot;,
+    &quot;first&quot;: &quot;https://gitlab.duthu.net/S52200051/lap-store&quot;,
     &quot;second&quot;: &quot;d8f8a094-9fd9-4d38-abeb-15ff8a36032b&quot;
   }
 }</component>
@@ -120,19 +118,28 @@
   <component name="RunManager" selected="Spring Boot.LapStoreApplication">
     <configuration name="All in lap-store" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lap-store" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="23" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LapStoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="23" />
       <module name="lap-store" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tt.lap_store.LapStoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in lap-store" />
+      <item itemvalue="Spring Boot.LapStoreApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in lap-store" />
@@ -142,8 +149,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -173,6 +180,9 @@
       <workItem from="1743437503178" duration="1401000" />
       <workItem from="1743465467017" duration="1431000" />
       <workItem from="1743481465577" duration="1841000" />
+      <workItem from="1743489450030" duration="191000" />
+      <workItem from="1743489663790" duration="4418000" />
+      <workItem from="1743494538145" duration="6631000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
