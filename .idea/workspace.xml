@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Repository/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/CommonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/CommonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
