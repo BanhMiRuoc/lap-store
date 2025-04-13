@@ -5,8 +5,10 @@ import com.tt.lap_store.Repository.CategoryRepository;
 import com.tt.lap_store.Service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {
@@ -26,7 +28,24 @@ public class CategoryServiceImpl implements CategoryService {
 
     @Override
     public Boolean existCategory(String name) {
-        return categoryRepository.existByName(name);
+        return categoryRepository.existsByName(name);
     }
+
+    @Override
+    public Boolean deleteCategory(Integer id) {
+        Category category = categoryRepository.findById(id).orElse(null);
+        if(!ObjectUtils.isEmpty(category)){
+            categoryRepository.delete(category);
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public Category getCategoryById(Integer id) {
+        return categoryRepository.findById(id).orElse(null);
+    }
+
+
 
 }

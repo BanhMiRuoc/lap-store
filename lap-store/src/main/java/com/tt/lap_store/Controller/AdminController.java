@@ -57,15 +57,60 @@ public class AdminController {
             if (ObjectUtils.isEmpty(categorySaved)) {
                 session.setAttribute("errorMsg", "Category not saved ! Internal server error");
             } else {
-                File saveFile = new ClassPathResource("static/img").getFile();
+                File saveFile = new ClassPathResource("static/image").getFile();
                 Path path = Paths.get(saveFile.getAbsolutePath()+File.separator+"category_img"+File.separator+file.getOriginalFilename());
 
-                System.out.println(path);
+//                System.out.println(path);
                 Files.copy(file.getInputStream(), path, StandardCopyOption.REPLACE_EXISTING);
 
                 session.setAttribute("succMsg", "Category saved successfully");
             }
         }
         return "redirect:/admin/category";
+    }
+    @GetMapping("/deleteCategory/{id}")
+    public String deleteCategory(@PathVariable int id, HttpSession session) {
+        Boolean deleteCategory = categoryService.deleteCategory(id);
+        if (deleteCategory) {
+            session.setAttribute("succMsg", "Category deleted successfully");
+        }
+        else {
+            session.setAttribute("errorMsg", "Something went wrong");
+        }
+        return "redirect:/admin/category";
+    }
+    @GetMapping("/loadEditCategory/{id}")
+    public String loadEditCategory(@PathVariable int id, Model m) {
+        m.addAttribute("category", categoryService.getCategoryById(id));
+        return "admin/edit_category";
+    }
+    @PostMapping("/updateCategory")
+    public String updateCategory(@ModelAttribute Category category, @RequestParam("file") MultipartFile file, HttpSession session) throws IOException {
+        Category category1 = categoryService.getCategoryById(category.getId());
+        String image = file.isEmpty() ? category1.getImageName() : file.getOriginalFilename();
+
+        if (ObjectUtils.isEmpty(category)) {
+            category1.setName(category.getName());
+            category1.setIsActive(category1.getIsActive());
+            category1.setImageName(image);
+        }
+        Category updateCategory = categoryService.saveCategory(category1);
+        if (ObjectUtils.isEmpty(updateCategory)) {
+
+            if(!file.isEmpty()) {
+
+                File saveFile = new ClassPathResource("static/image").getFile();
+                Path path = Paths.get(saveFile.getAbsolutePath()+File.separator+"category_img"+File.separator+file.getOriginalFilename());
+
+//                System.out.println(path);
+                Files.copy(file.getInputStream(), path, StandardCopyOption.REPLACE_EXISTING);
+            }
+
+            session.setAttribute("succMsg", "Category updated successfully");
+        }
+        else {
+            session.setAttribute("errorMsg", "Something went wrong");
+        }
+        return "redirect:/admin/loadEditCategory/" + category.getId();
     }
 }
