@@ -13,7 +13,7 @@
             <div class="col-md-3">
                 <div class="card card-sh">
                     <div class="card-header text-center">
-                        <p class="fs-4">Edit Category</p>
+                        <p class="fs-4">Add Category</p>
                         <th:block th:if="${session.succMsg}">
                             <p class="text-success fw-bold">[[${session.succMsg}]]</p>
                             <th:block th:text="${@commonServiceImpl.removeSessionMessage()}"></th:block>
@@ -27,7 +27,7 @@
                         <form action="/admin/saveCategory" method="post" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label for="category">Category</label>
-                                <input id="category" class="form-control" name="name" type="text" placeholder="Enter Category"></input>
+                                <input id="category" class="form-control" name="name" type="text" placeholder="Enter Category">
                             </div>
 
                             <div class="mb-3">
@@ -50,7 +50,7 @@
 
                             <div class="mb-3">
                                 <label for="image">Image</label>
-                                <input id="image" class="form-control" name="file" type="file" placeholder="Upload image"></input>
+                                <input id="image" class="form-control" name="file" type="file" placeholder="Upload image">
                             </div>
                             <button class="btn btn-primary col-md-12 mt-2">Save</button>
                         </form>

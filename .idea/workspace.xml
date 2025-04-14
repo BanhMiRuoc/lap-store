@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java">
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/ProductServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/target/classes/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
       <list>
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -255,7 +259,8 @@
     <MESSAGE value="new change for base, index, login and register" />
     <MESSAGE value="Add View Product page" />
     <MESSAGE value="Add Laptop Banner, Laptop image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Laptop Banner, Laptop image" />
+    <MESSAGE value="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
