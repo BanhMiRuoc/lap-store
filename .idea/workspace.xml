@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java">
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/ProductServiceImpl.java" afterDir="false" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Adding MySQL database in database folder&#10;Updating application.properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +50,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -87,8 +84,9 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/HK2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/education_truong/Education/school/year3_hk2/design_pattern/midterm/midterm&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -144,8 +142,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -178,6 +176,17 @@
       <workItem from="1743489450030" duration="191000" />
       <workItem from="1743489663790" duration="4418000" />
       <workItem from="1743494538145" duration="6631000" />
+      <workItem from="1744676360996" duration="1418000" />
+      <workItem from="1744870970404" duration="133000" />
+      <workItem from="1744871362027" duration="85000" />
+      <workItem from="1744871496392" duration="934000" />
+      <workItem from="1744874365395" duration="636000" />
+      <workItem from="1744875014450" duration="94000" />
+      <workItem from="1744890839615" duration="37000" />
+      <workItem from="1744892236968" duration="1471000" />
+      <workItem from="1744994947285" duration="187000" />
+      <workItem from="1744995177741" duration="1912000" />
+      <workItem from="1745020224892" duration="7576000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -235,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742145073724</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java">
+      <option name="closed" value="true" />
+      <created>1744652245193</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1744652245194</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adding MySQL database in database folder&#10;Updating application.properties">
+      <option name="closed" value="true" />
+      <created>1745025287481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745025287481</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +285,8 @@
     <MESSAGE value="Add View Product page" />
     <MESSAGE value="Add Laptop Banner, Laptop image" />
     <MESSAGE value="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java" />
+    <MESSAGE value="Adding MySQL database in database folder&#10;Updating application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding MySQL database in database folder&#10;Updating application.properties" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
