@@ -113,4 +113,9 @@ public class AdminController {
         }
         return "redirect:/admin/loadEditCategory/" + category.getId();
     }
+
+    @GetMapping("/products")
+    public String loadViewProduct(Model m) {
+        return "admin/products";
+    }
 }
