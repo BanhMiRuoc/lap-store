@@ -1,8 +1,7 @@
-package com.tt.lap_store.Service;
+package com.ecom.service;
 
-import org.springframework.stereotype.Service;
-
-@Service
 public interface CommonService {
-    public void removeSessionMessage();
+
+	public void removeSessionMessage();
+
 }
