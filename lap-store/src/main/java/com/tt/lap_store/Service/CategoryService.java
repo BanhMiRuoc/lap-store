@@ -1,11 +1,11 @@
-package com.ecom.service;
+package com.tt.lap_store.Service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.ecom.model.Category;
+import com.tt.lap_store.Model.Category;
 
 public interface CategoryService {
 

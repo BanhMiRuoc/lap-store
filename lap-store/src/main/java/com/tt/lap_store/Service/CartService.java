@@ -1,8 +1,8 @@
-package com.ecom.service;
+package com.tt.lap_store.Service;
 
 import java.util.List;
 
-import com.ecom.model.Cart;
+import com.tt.lap_store.Model.Cart;
 
 public interface CartService {
 

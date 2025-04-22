@@ -1,4 +1,4 @@
-package com.ecom.service;
+package com.tt.lap_store.Service;
 
 public interface CommonService {
 

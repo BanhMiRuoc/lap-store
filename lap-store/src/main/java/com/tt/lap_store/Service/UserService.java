@@ -1,10 +1,10 @@
-package com.ecom.service;
+package com.tt.lap_store.Service;
 
 import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ecom.model.UserDtls;
+import com.tt.lap_store.Model.UserDtls;
 
 public interface UserService {
 

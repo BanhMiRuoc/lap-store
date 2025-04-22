@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.tt.lap_store.Service.impl;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
-import com.ecom.model.Category;
-import com.ecom.repository.CategoryRepository;
-import com.ecom.service.CategoryService;
+import com.tt.lap_store.Model.Category;
+import com.tt.lap_store.Repository.CategoryRepository;
+import com.tt.lap_store.Service.CategoryService;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {

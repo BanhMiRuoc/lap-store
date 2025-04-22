@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.tt.lap_store.Service.impl;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -16,9 +16,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ecom.model.Product;
-import com.ecom.repository.ProductRepository;
-import com.ecom.service.ProductService;
+import com.tt.lap_store.Model.Product;
+import com.tt.lap_store.Repository.ProductRepository;
+import com.tt.lap_store.Service.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService {

@@ -1,4 +1,4 @@
-package com.tt.lap_store.Model.Model;
+package com.tt.lap_store.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;

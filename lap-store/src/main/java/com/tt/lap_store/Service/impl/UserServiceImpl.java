@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.tt.lap_store.Service.impl;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -16,10 +16,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.ecom.model.UserDtls;
-import com.ecom.repository.UserRepository;
-import com.ecom.service.UserService;
-import com.ecom.util.AppConstant;
+import com.tt.lap_store.Model.UserDtls;
+import com.tt.lap_store.Repository.UserRepository;
+import com.tt.lap_store.Service.UserService;
+import com.tt.lap_store.Util.AppConstant;
 
 @Service
 public class UserServiceImpl implements UserService {

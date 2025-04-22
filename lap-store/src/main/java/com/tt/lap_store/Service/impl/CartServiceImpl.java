@@ -1,4 +1,4 @@
-package com.ecom.service.impl;
+package com.tt.lap_store.Service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
-import com.ecom.model.Cart;
-import com.ecom.model.Product;
-import com.ecom.model.UserDtls;
-import com.ecom.repository.CartRepository;
-import com.ecom.repository.ProductRepository;
-import com.ecom.repository.UserRepository;
-import com.ecom.service.CartService;
+import com.tt.lap_store.Model.Cart;
+import com.tt.lap_store.Model.Product;
+import com.tt.lap_store.Model.UserDtls;
+import com.tt.lap_store.Repository.CartRepository;
+import com.tt.lap_store.Repository.ProductRepository;
+import com.tt.lap_store.Repository.UserRepository;
+import com.tt.lap_store.Service.CartService;
 
 @Service
 public class CartServiceImpl implements CartService {
