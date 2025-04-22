@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="adding delete and update category">
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/index.html" afterDir="false" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="adding full model">
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,52 +80,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.All in lap-store.executor": "Run",
-    "Maven.lap-store [deploy].executor": "Run",
-    "Maven.lap-store [install].executor": "Run",
-    "Maven.lap-store [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor": "Run",
-    "Maven.lap-store [org.apache.maven.plugins:maven-install-plugin:3.1.3:install].executor": "Run",
-    "Maven.lap-store [org.apache.maven.plugins:maven-jar-plugin:3.4.2:jar].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor": "Run",
-    "Maven.lap-store [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.LapStoreApplication.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/lap-store",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.All in lap-store.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.apache.maven.plugins:maven-install-plugin:3.1.3:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.apache.maven.plugins:maven-jar-plugin:3.4.2:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LapStoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/lap-store&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\HK2\DP\final\lap-store\lap-store\src\main\resources\static\img\slider" />
@@ -218,6 +209,7 @@
       <workItem from="1745280998480" duration="793000" />
       <workItem from="1745281843689" duration="830000" />
       <workItem from="1745304540175" duration="2582000" />
+      <workItem from="1745333441491" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -291,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744576056905</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding full model">
+      <option name="closed" value="true" />
+      <created>1745333471315</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745333471315</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +317,8 @@
     <MESSAGE value="Add Laptop Banner, Laptop image" />
     <MESSAGE value="adding icon edit and delete for category" />
     <MESSAGE value="adding delete and update category" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding delete and update category" />
+    <MESSAGE value="adding full model" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding full model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
