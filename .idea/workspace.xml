@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating Repository folder&#10;Updating old repo file and add Cart repo, ProductOrder repo, User repo">
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Adding user template folder in template folder&#10;Adding cart page, home page, user order page, order page,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +192,7 @@
       <workItem from="1744994947285" duration="187000" />
       <workItem from="1744995177741" duration="1912000" />
       <workItem from="1745020224892" duration="4493000" />
-      <workItem from="1745385557217" duration="2622000" />
+      <workItem from="1745385557217" duration="5684000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -268,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745336528809</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Adding Util folder&#10;Adding AppConstant, CommonUtil, OrderStatus">
+      <option name="closed" value="true" />
+      <created>1745388613246</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1745388613246</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding user template folder in template folder&#10;Adding cart page, home page, user order page, order page,">
+      <option name="closed" value="true" />
+      <created>1745390954997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1745390954997</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +318,9 @@
     <MESSAGE value="Adding MySQL database in database folder&#10;Updating application.properties" />
     <MESSAGE value="Updating Service folder&#10;Adding all services and all implements services" />
     <MESSAGE value="Updating Repository folder&#10;Updating old repo file and add Cart repo, ProductOrder repo, User repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Repository folder&#10;Updating old repo file and add Cart repo, ProductOrder repo, User repo" />
+    <MESSAGE value="Adding Util folder&#10;Adding AppConstant, CommonUtil, OrderStatus" />
+    <MESSAGE value="Adding user template folder in template folder&#10;Adding cart page, home page, user order page, order page," />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding user template folder in template folder&#10;Adding cart page, home page, user order page, order page," />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
