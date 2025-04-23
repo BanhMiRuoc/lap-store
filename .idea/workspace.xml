@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating admin template folder&#10;Adding add_admin, edit_product, orders, products, profile, users page&#10;Updating add_product, category, edit, category, index" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating script.js and style.css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +184,7 @@
       <workItem from="1744994947285" duration="187000" />
       <workItem from="1744995177741" duration="1912000" />
       <workItem from="1745020224892" duration="4493000" />
-      <workItem from="1745385557217" duration="6636000" />
+      <workItem from="1745385557217" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -298,7 +298,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745392968834</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updating application.properties">
+      <option name="closed" value="true" />
+      <created>1745393076052</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745393076052</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updating script.js and style.css">
+      <option name="closed" value="true" />
+      <created>1745393195462</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1745393195462</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +346,9 @@
     <MESSAGE value="Adding user template folder in template folder&#10;Adding cart page, home page, user order page, order page," />
     <MESSAGE value="Updating template folder&#10;Adding forgot password page, message page, reset password page&#10;Updating base, index, login, product, register, view product in template folder" />
     <MESSAGE value="Updating admin template folder&#10;Adding add_admin, edit_product, orders, products, profile, users page&#10;Updating add_product, category, edit, category, index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating admin template folder&#10;Adding add_admin, edit_product, orders, products, profile, users page&#10;Updating add_product, category, edit, category, index" />
+    <MESSAGE value="Updating application.properties" />
+    <MESSAGE value="Updating script.js and style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating script.js and style.css" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
