@@ -1,0 +1,202 @@
+Index: .idea/dataSources.local.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"dataSourceStorageLocal\" created-in=\"IU-251.23774.435\">\r\n    <data-source name=\"mysql\" uuid=\"6072ced0-b9f3-404d-9515-392e5719f220\">\r\n      <database-info product=\"MySQL\" version=\"8.0.42\" jdbc-version=\"4.2\" driver-name=\"MySQL Connector/J\" driver-version=\"mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)\" dbms=\"MYSQL\" exact-version=\"8.0.42\" exact-driver-version=\"8.2\">\r\n        <extra-name-characters>#@</extra-name-characters>\r\n        <identifier-quote-string>`</identifier-quote-string>\r\n        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>\r\n      </database-info>\r\n      <case-sensitivity plain-identifiers=\"lower\" quoted-identifiers=\"lower\" />\r\n      <user-name>root</user-name>\r\n      <schema-mapping>\r\n        <introspection-scope>\r\n          <node kind=\"schema\" qname=\"@\" />\r\n        </introspection-scope>\r\n      </schema-mapping>\r\n      <load-sources>user_and_system_sources</load-sources>\r\n    </data-source>\r\n    <data-source name=\"testdb\" uuid=\"9b3d1f77-81b6-4a70-8e67-8f60f3b199ec\">\r\n      <database-info product=\"H2\" version=\"2.3.232 (2024-08-11)\" jdbc-version=\"4.3\" driver-name=\"H2 JDBC Driver\" driver-version=\"2.3.232 (2024-08-11)\" dbms=\"H2\" exact-version=\"2.3.232\" exact-driver-version=\"2.3\">\r\n        <identifier-quote-string>&quot;</identifier-quote-string>\r\n      </database-info>\r\n      <case-sensitivity plain-identifiers=\"upper\" quoted-identifiers=\"exact\" />\r\n      <user-name>root</user-name>\r\n      <schema-mapping>\r\n        <introspection-scope>\r\n          <node kind=\"database\" qname=\"@\">\r\n            <node kind=\"schema\" qname=\"@\" />\r\n          </node>\r\n        </introspection-scope>\r\n      </schema-mapping>\r\n    </data-source>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.local.xml b/.idea/dataSources.local.xml
+--- a/.idea/dataSources.local.xml	(revision 1beeda7d6c662cc2e0d54e60868d8ee36d69e61e)
++++ b/.idea/dataSources.local.xml	(date 1745335269620)
+@@ -1,11 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="dataSourceStorageLocal" created-in="IU-251.23774.435">
++  <component name="dataSourceStorageLocal" created-in="IU-243.25659.59">
+     <data-source name="mysql" uuid="6072ced0-b9f3-404d-9515-392e5719f220">
+       <database-info product="MySQL" version="8.0.42" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.42" exact-driver-version="8.2">
+         <extra-name-characters>#@</extra-name-characters>
+         <identifier-quote-string>`</identifier-quote-string>
+-        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+       </database-info>
+       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+       <user-name>root</user-name>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1\" name=\"Changes\" comment=\"Adding MySQL database in database folder&#10;Updating application.properties\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/database/shopping_cart_db.sql\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lap-store/src/main/resources/application.properties\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lap-store/src/main/resources/application.properties\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"Interface\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitLabMergeRequestFiltersHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPENED&quot;,\r\n    &quot;assignee&quot;: {\r\n      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,\r\n      &quot;username&quot;: &quot;S52200051&quot;,\r\n      &quot;fullname&quot;: &quot;Mai Nguyễn Phương Trang&quot;\r\n    }\r\n  }\r\n}</component>\r\n  <component name=\"GitLabMergeRequestsSettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;first&quot;: &quot;https://gitlab.duthu.net/S52200051/lap-store&quot;,\r\n    &quot;second&quot;: &quot;d8f8a094-9fd9-4d38-abeb-15ff8a36032b&quot;\r\n  }\r\n}</component>\r\n  <component name=\"KubernetesApiPersistence\">{}</component>\r\n  <component name=\"KubernetesApiProvider\">{\r\n  &quot;isMigrated&quot;: true\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2t78qSEKl4Iy7SMkhZOV6LythRI\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;JUnit.All in lap-store.executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [deploy].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [install].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.lap-store [package].executor&quot;: &quot;Run&quot;,\r\n    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,\r\n    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,\r\n    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,\r\n    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Spring Boot.LapStoreApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,\r\n    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;E:/education_truong/Education/school/year3_hk2/design_pattern/midterm/midterm&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,\r\n    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;DatabaseDriversLRU&quot;: [\r\n      &quot;mysql_aurora&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\HK2\\DP\\final\\lap-store\\lap-store\\src\\main\\resources\\static\\img\\slider\" />\r\n      <recent name=\"D:\\HK2\\DP\\final\\lap-store\\lap-store\\src\\main\\resources\\static\\css\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.LapStoreApplication\">\r\n    <configuration name=\"All in lap-store\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"lap-store\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"true\" />\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"23\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"\" />\r\n      <option name=\"METHOD_NAME\" value=\"\" />\r\n      <option name=\"TEST_OBJECT\" value=\"package\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"LapStoreApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" nameIsGenerated=\"true\">\r\n      <option name=\"ALTERNATIVE_JRE_PATH\" value=\"23\" />\r\n      <module name=\"lap-store\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.tt.lap_store.LapStoreApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"JUnit.All in lap-store\" />\r\n      <item itemvalue=\"Spring Boot.LapStoreApplication\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.All in lap-store\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1\" name=\"Changes\" comment=\"\" />\r\n      <created>1739691944897</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1739691944897</updated>\r\n      <workItem from=\"1739691946243\" duration=\"2093000\" />\r\n      <workItem from=\"1740138498522\" duration=\"109000\" />\r\n      <workItem from=\"1741248822768\" duration=\"199000\" />\r\n      <workItem from=\"1741538852169\" duration=\"1323000\" />\r\n      <workItem from=\"1741593368930\" duration=\"4507000\" />\r\n      <workItem from=\"1741651831073\" duration=\"100000\" />\r\n      <workItem from=\"1741658155628\" duration=\"3399000\" />\r\n      <workItem from=\"1741755130959\" duration=\"7970000\" />\r\n      <workItem from=\"1741926124571\" duration=\"2488000\" />\r\n      <workItem from=\"1741933178440\" duration=\"1239000\" />\r\n      <workItem from=\"1742097305462\" duration=\"13647000\" />\r\n      <workItem from=\"1742144991205\" duration=\"139000\" />\r\n      <workItem from=\"1742866973527\" duration=\"823000\" />\r\n      <workItem from=\"1742873527816\" duration=\"214000\" />\r\n      <workItem from=\"1742873778815\" duration=\"2008000\" />\r\n      <workItem from=\"1743437503178\" duration=\"1401000\" />\r\n      <workItem from=\"1743465467017\" duration=\"1431000\" />\r\n      <workItem from=\"1743481465577\" duration=\"1841000\" />\r\n      <workItem from=\"1743489450030\" duration=\"191000\" />\r\n      <workItem from=\"1743489663790\" duration=\"4418000\" />\r\n      <workItem from=\"1743494538145\" duration=\"6631000\" />\r\n      <workItem from=\"1744676360996\" duration=\"1418000\" />\r\n      <workItem from=\"1744870970404\" duration=\"133000\" />\r\n      <workItem from=\"1744871362027\" duration=\"85000\" />\r\n      <workItem from=\"1744871496392\" duration=\"934000\" />\r\n      <workItem from=\"1744874365395\" duration=\"636000\" />\r\n      <workItem from=\"1744875014450\" duration=\"94000\" />\r\n      <workItem from=\"1744890839615\" duration=\"37000\" />\r\n      <workItem from=\"1744892236968\" duration=\"1471000\" />\r\n      <workItem from=\"1744994947285\" duration=\"187000\" />\r\n      <workItem from=\"1744995177741\" duration=\"1912000\" />\r\n      <workItem from=\"1745020224892\" duration=\"4493000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"init basecode of project\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1739714700922</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739714700922</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"init basecode of project\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741248634158</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741248634158</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"add bootstrap and script and awe\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741772713612</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741772713612</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"new change for base, index, login and register\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741928319485</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741928319485</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Add View Product page\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742105795995</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742105795995</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Add Laptop Banner, Laptop image\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742145037113</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742145037113</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Add Laptop Banner, Laptop image\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742145073724</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742145073724</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1744652245193</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1744652245194</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Commit\" />\r\n    <MESSAGE value=\"init basecode of project\" />\r\n    <MESSAGE value=\"add bootstrap and script and awe\" />\r\n    <MESSAGE value=\"new change for base, index, login and register\" />\r\n    <MESSAGE value=\"Add View Product page\" />\r\n    <MESSAGE value=\"Add Laptop Banner, Laptop image\" />\r\n    <MESSAGE value=\"adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java\" />\r\n    <MESSAGE value=\"Adding MySQL database in database folder&#10;Updating application.properties\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Adding MySQL database in database folder&#10;Updating application.properties\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/project$LapStoreApplication.ic\" NAME=\"LapStoreApplication Coverage Results\" MODIFIED=\"1742107266782\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"idea\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1beeda7d6c662cc2e0d54e60868d8ee36d69e61e)
++++ b/.idea/workspace.xml	(date 1745335269608)
+@@ -4,14 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Adding MySQL database in database folder&#10;Updating application.properties">
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/database/shopping_cart_db.sql" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" afterDir="false" />
+-    </list>
++    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="done model and adding AdminController, UserController" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -21,12 +14,17 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="HTML File" />
++        <option value="Interface" />
+         <option value="Class" />
+-        <option value="Interface" />
+       </list>
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PREVIOUS_COMMIT_AUTHORS">
++      <list>
++        <option value="Mai Nguyễn Phương Trang &lt;52200051@student.tdtu.edu.vn&gt;" />
++      </list>
++    </option>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+         <entry key="$PROJECT_DIR$" value="main" />
+@@ -66,47 +64,50 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+-    &quot;JUnit.All in lap-store.executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [deploy].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [install].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.lap-store [package].executor&quot;: &quot;Run&quot;,
+-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Spring Boot.LapStoreApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;E:/education_truong/Education/school/year3_hk2/design_pattern/midterm/midterm&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "JUnit.All in lap-store.executor": "Run",
++    "Maven.lap-store [deploy].executor": "Run",
++    "Maven.lap-store [install].executor": "Run",
++    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor": "Run",
++    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor": "Run",
++    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor": "Run",
++    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor": "Run",
++    "Maven.lap-store [package].executor": "Run",
++    "RequestMappingsPanelOrder0": "0",
++    "RequestMappingsPanelOrder1": "1",
++    "RequestMappingsPanelWidth0": "75",
++    "RequestMappingsPanelWidth1": "75",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Spring Boot.LapStoreApplication.executor": "Run",
++    "dart.analysis.tool.window.visible": "false",
++    "git-widget-placeholder": "main",
++    "ignore.virus.scanning.warn.message": "true",
++    "junie.onboarding.icon.badge.shown": "true",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "E:/HK2/DP/lapstore/lap-store/src/main/java/com/tt/lap_store/Model",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "MavenSettings",
++    "show.migrate.to.gradle.popup": "false",
++    "vue.rearranger.settings.migration": "true"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;DatabaseDriversLRU&quot;: [
+-      &quot;mysql_aurora&quot;
++  "keyToStringList": {
++    "DatabaseDriversLRU": [
++      "mysql_aurora"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="E:\HK2\DP\lapstore\lap-store\src\main\java\com\tt\lap_store\Model" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="D:\HK2\DP\final\lap-store\lap-store\src\main\resources\static\img\slider" />
+       <recent name="D:\HK2\DP\final\lap-store\lap-store\src\main\resources\static\css" />
+@@ -146,8 +147,8 @@
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
++        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
++        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -191,6 +192,7 @@
+       <workItem from="1744994947285" duration="187000" />
+       <workItem from="1744995177741" duration="1912000" />
+       <workItem from="1745020224892" duration="4493000" />
++      <workItem from="1745335008990" duration="261000" />
+     </task>
+     <task id="LOCAL-00001" summary="init basecode of project">
+       <option name="closed" value="true" />
+@@ -256,7 +258,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1744652245194</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="done model and adding AdminController, UserController">
++      <option name="closed" value="true" />
++      <created>1745335200390</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1745335200390</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -282,7 +292,8 @@
+     <MESSAGE value="Add Laptop Banner, Laptop image" />
+     <MESSAGE value="adding saveProduct: Model Product, ProductRepository, ProductService, ProductServiceImpl&#10;&#10;updating add_product.html, category.html, AdminController.java" />
+     <MESSAGE value="Adding MySQL database in database folder&#10;Updating application.properties" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Adding MySQL database in database folder&#10;Updating application.properties" />
++    <MESSAGE value="done model and adding AdminController, UserController" />
++    <option name="LAST_COMMIT_MESSAGE" value="done model and adding AdminController, UserController" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
