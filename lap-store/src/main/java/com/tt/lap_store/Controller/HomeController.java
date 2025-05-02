@@ -150,7 +150,7 @@ public class HomeController {
 
             if (!ObjectUtils.isEmpty(saveUser)) {
                 if (!file.isEmpty()) {
-                    File saveFile = new ClassPathResource("static/img").getFile();
+                    File saveFile = new ClassPathResource("static/image").getFile();
 
                     Path path = Paths.get(saveFile.getAbsolutePath() + File.separator + "profile_img" + File.separator
                             + file.getOriginalFilename());

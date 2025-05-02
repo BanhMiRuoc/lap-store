@@ -21,6 +21,7 @@ public class UserDtls {
     private String email;
     private String address;
     private String city;
+    private String state;
     private String pincode;
     private String password;
     private String profileImage;

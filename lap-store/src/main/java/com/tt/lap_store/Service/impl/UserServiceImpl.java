@@ -35,7 +35,7 @@ public class UserServiceImpl implements UserService {
 		user.setRole("ROLE_USER");
 		user.setIsEnable(true);
 		user.setAccountNonLocked(true);
-		user.setFailedAttempt(0);
+		user.setFailedAttempts(0);
 
 		String encodePassword = passwordEncoder.encode(user.getPassword());
 		user.setPassword(encodePassword);
@@ -70,8 +70,8 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void increaseFailedAttempt(UserDtls user) {
-		int attempt = user.getFailedAttempt() + 1;
-		user.setFailedAttempt(attempt);
+		int attempt = user.getFailedAttempts() + 1;
+		user.setFailedAttempts(attempt);
 		userRepository.save(user);
 	}
 
@@ -92,7 +92,7 @@ public class UserServiceImpl implements UserService {
 
 		if (unLockTime < currentTime) {
 			user.setAccountNonLocked(true);
-			user.setFailedAttempt(0);
+			user.setFailedAttempts(0);
 			user.setLockTime(null);
 			userRepository.save(user);
 			return true;
@@ -165,7 +165,7 @@ public class UserServiceImpl implements UserService {
 		user.setRole("ROLE_ADMIN");
 		user.setIsEnable(true);
 		user.setAccountNonLocked(true);
-		user.setFailedAttempt(0);
+		user.setFailedAttempts(0);
 
 		String encodePassword = passwordEncoder.encode(user.getPassword());
 		user.setPassword(encodePassword);

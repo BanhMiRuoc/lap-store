@@ -112,7 +112,7 @@ public class AdminController {
             if (ObjectUtils.isEmpty(categorySaved)) {
                 session.setAttribute("errorMsg", "Category not saved ! Internal server error");
             } else {
-                File saveFile = new ClassPathResource("static/image").getFile();
+                File saveFile = new ClassPathResource("static/image/category_img").getFile();
                 Path path = Paths.get(saveFile.getAbsolutePath()+File.separator+"category_img"+File.separator+file.getOriginalFilename());
 
 //                System.out.println(path);
@@ -154,7 +154,7 @@ public class AdminController {
 
             if(!file.isEmpty()) {
 
-                File saveFile = new ClassPathResource("static/image").getFile();
+                File saveFile = new ClassPathResource("static/image/category_img").getFile();
                 Path path = Paths.get(saveFile.getAbsolutePath()+File.separator+"category_img"+File.separator+file.getOriginalFilename());
 
 //                System.out.println(path);
@@ -182,7 +182,7 @@ public class AdminController {
 
         if (!ObjectUtils.isEmpty(saveProduct)) {
 
-            File saveFile = new ClassPathResource("static/img").getFile();
+            File saveFile = new ClassPathResource("static/image/product_img").getFile();
 
             Path path = Paths.get(saveFile.getAbsolutePath() + File.separator + "product_img" + File.separator
                     + image.getOriginalFilename());
@@ -379,7 +379,7 @@ public class AdminController {
 
         if (!ObjectUtils.isEmpty(saveUser)) {
             if (!file.isEmpty()) {
-                File saveFile = new ClassPathResource("static/img").getFile();
+                File saveFile = new ClassPathResource("static/image/profile_img").getFile();
 
                 Path path = Paths.get(saveFile.getAbsolutePath() + File.separator + "profile_img" + File.separator
                         + file.getOriginalFilename());

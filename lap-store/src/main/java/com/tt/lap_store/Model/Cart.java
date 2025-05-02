@@ -18,6 +18,9 @@ public class Cart {
     @ManyToOne
     private Product product;
 
+    @ManyToOne
+    private UserDtls user;
+
     private Integer quantity;
 
     @Transient
