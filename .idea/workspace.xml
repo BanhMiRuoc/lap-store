@@ -5,16 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating linking images banner">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/acer-nitro-v-15-anv15-41-r2up-r5-nhqpgsv004-13-638754929259223162-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/asus-vivobook-go-15-e1504fa-r5-nj776w-glr-13-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/asus-x1504za-i5-nj1608w-15-638621784228024677-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/hp-15-fd0234tu-i5-9q969pa-14-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/lenovo-ideapad-slim-3-15amn8-r5-82xq00j0vn-14-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/lenovo-loq-15iax9e-i5-83lk000bvn-glr-15-638687557474229202-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/LapStoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/LapStoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +40,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,12 +63,12 @@
     }
   }
 }</component>
-  <component name="GitLabMergeRequestsSettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;first&quot;: &quot;https://gitlab.duthu.net/S52200051/lap-store&quot;,
-    &quot;second&quot;: &quot;d8f8a094-9fd9-4d38-abeb-15ff8a36032b&quot;
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "https://gitlab.duthu.net/S52200051/lap-store.git",
+    "second": "575911ca-12f7-409d-a493-2775bd753e00"
   }
-}</component>
+}]]></component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -99,7 +114,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   },
@@ -117,6 +132,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\HK2\DP\final\lap-store\lap-store\src\main\resources\static\img\slider" />
       <recent name="D:\HK2\DP\final\lap-store\lap-store\src\main\resources\static\css" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tt.lap_store" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.LapStoreApplication">
@@ -153,8 +171,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -205,6 +223,9 @@
       <workItem from="1746109810417" duration="65000" />
       <workItem from="1746109888984" duration="962000" />
       <workItem from="1746148394322" duration="21834000" />
+      <workItem from="1746190293541" duration="106000" />
+      <workItem from="1746190421957" duration="905000" />
+      <workItem from="1746191340761" duration="3794000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
