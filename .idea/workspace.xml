@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating script.js and style.css">
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/AuthFailureHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/AuthSucessHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/CustomUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/shopping_cart_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/shopping_cart_db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +101,7 @@
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "mysql",
       "mysql_aurora"
     ]
   }
@@ -200,6 +195,12 @@
       <workItem from="1744995177741" duration="1912000" />
       <workItem from="1745020224892" duration="4493000" />
       <workItem from="1745385557217" duration="6940000" />
+      <workItem from="1745490314992" duration="267000" />
+      <workItem from="1745591203513" duration="111000" />
+      <workItem from="1745591332407" duration="1129000" />
+      <workItem from="1746109810417" duration="65000" />
+      <workItem from="1746109888984" duration="962000" />
+      <workItem from="1746148394322" duration="5709000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
