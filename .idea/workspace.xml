@@ -4,32 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating database">
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating linking images banner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/AuthFailureHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/AuthFailureHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/edit_category.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/edit_category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/edit_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/edit_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/forgot_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/acer-nitro-v-15-anv15-41-r2up-r5-nhqpgsv004-13-638754929259223162-750x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/asus-vivobook-go-15-e1504fa-r5-nj776w-glr-13-750x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/asus-x1504za-i5-nj1608w-15-638621784228024677-750x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/hp-15-fd0234tu-i5-9q969pa-14-750x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/lenovo-ideapad-slim-3-15amn8-r5-82xq00j0vn-14-750x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/lenovo-loq-15iax9e-i5-83lk000bvn-glr-15-638687557474229202-750x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/reset_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/reset_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +204,7 @@
       <workItem from="1745591332407" duration="1129000" />
       <workItem from="1746109810417" duration="65000" />
       <workItem from="1746109888984" duration="962000" />
-      <workItem from="1746148394322" duration="14311000" />
+      <workItem from="1746148394322" duration="21834000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -357,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746155026592</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updating linking images banner">
+      <option name="closed" value="true" />
+      <created>1746165173602</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1746165173602</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +385,8 @@
     <MESSAGE value="Updating application.properties" />
     <MESSAGE value="Updating script.js and style.css" />
     <MESSAGE value="Updating database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating database" />
+    <MESSAGE value="Updating linking images banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating linking images banner" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
