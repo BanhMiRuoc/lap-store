@@ -9,7 +9,6 @@ import lombok.ToString;
 
 @ToString
 @Data
-@Table(name = "orderrequest")
 public class OrderRequest {
     private String firstName;
     private String lastName;

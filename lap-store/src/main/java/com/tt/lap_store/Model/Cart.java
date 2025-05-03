@@ -7,7 +7,6 @@ import lombok.Setter;
 
 @Data
 @Entity
-@Table(name = "cart")
 public class Cart {
 
     @Id

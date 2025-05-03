@@ -9,7 +9,6 @@ import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "userdtls")
 public class UserDtls {
 
     @Id

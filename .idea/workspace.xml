@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Connecting database (Almost done)">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/shopping_cart_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/shopping_cart_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/user/order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +203,7 @@
       <workItem from="1746238995318" duration="1644000" />
       <workItem from="1746251769593" duration="8749000" />
       <workItem from="1746271352627" duration="656000" />
-      <workItem from="1746276083113" duration="1150000" />
+      <workItem from="1746276083113" duration="1834000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -386,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746256836940</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updating">
+      <option name="closed" value="true" />
+      <created>1746278558369</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1746278558369</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,10 +425,10 @@
     <MESSAGE value="Updating script.js and style.css" />
     <MESSAGE value="Updating database" />
     <MESSAGE value="Updating linking images banner" />
-    <MESSAGE value="Updating" />
     <MESSAGE value="Updating dtb" />
     <MESSAGE value="Connecting database (Almost done)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connecting database (Almost done)" />
+    <MESSAGE value="Updating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
