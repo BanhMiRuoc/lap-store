@@ -4,17 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating linking images banner">
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating dtb">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/acer-nitro-v-15-anv15-41-r2up-r5-nhqpgsv004-13-638754929259223162-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/asus-vivobook-go-15-e1504fa-r5-nj776w-glr-13-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/asus-x1504za-i5-nj1608w-15-638621784228024677-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/hp-15-fd0234tu-i5-9q969pa-14-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/lenovo-ideapad-slim-3-15amn8-r5-82xq00j0vn-14-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/product_img/lenovo-loq-15iax9e-i5-83lk000bvn-glr-15-638687557474229202-750x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/admin/add_admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/shopping_cart_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/shopping_cart_db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/CustomUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/CustomUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,46 +82,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.All in lap-store.executor": "Run",
-    "Maven.lap-store [deploy].executor": "Run",
-    "Maven.lap-store [install].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor": "Run",
-    "Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor": "Run",
-    "Maven.lap-store [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.LapStoreApplication.executor": "Run",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/HK2/DP/lapstore/lap-store/src/main/java/com/tt/lap_store/config",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.All in lap-store.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:build-image].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:start].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [org.springframework.boot:spring-boot-maven-plugin:3.4.2:stop].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.lap-store [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LapStoreApplication.executor&quot;: &quot;Run&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/HK2/DP/lapstore/lap-store/src/main/java/com/tt/lap_store/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "mysql_aurora"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;mysql_aurora&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\HK2\DP\lapstore\lap-store\src\main\java\com\tt\lap_store\config" />
@@ -204,7 +216,13 @@
       <workItem from="1745591332407" duration="1129000" />
       <workItem from="1746109810417" duration="65000" />
       <workItem from="1746109888984" duration="962000" />
-      <workItem from="1746148394322" duration="21834000" />
+      <workItem from="1746148394322" duration="24417000" />
+      <workItem from="1746194691513" duration="8621000" />
+      <workItem from="1746232190554" duration="1340000" />
+      <workItem from="1746234281361" duration="385000" />
+      <workItem from="1746235130601" duration="985000" />
+      <workItem from="1746238995318" duration="1644000" />
+      <workItem from="1746251769593" duration="4171000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -350,7 +368,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746165173602</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updating">
+      <option name="closed" value="true" />
+      <created>1746180071293</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746180071293</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updating dtb">
+      <option name="closed" value="true" />
+      <created>1746180120317</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746180120317</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +420,9 @@
     <MESSAGE value="Updating script.js and style.css" />
     <MESSAGE value="Updating database" />
     <MESSAGE value="Updating linking images banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating linking images banner" />
+    <MESSAGE value="Updating" />
+    <MESSAGE value="Updating dtb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating dtb" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />

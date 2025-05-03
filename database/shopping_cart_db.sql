@@ -1,29 +1,29 @@
 CREATE DATABASE shopping_cart_db;
 USE shopping_cart_db;
 
-CREATE TABLE UserDtls (
+CREATE TABLE user_dtls (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
-    mobileNumber VARCHAR(20),
+    mobile_number VARCHAR(20),
     email VARCHAR(255),
     address TEXT,
     city VARCHAR(100),
     pincode VARCHAR(20),
     password VARCHAR(255),
-    profileImage VARCHAR(255),
+    profile_image VARCHAR(255),
     role VARCHAR(50),
     isEnable BOOLEAN,
-    accountNonLocked BOOLEAN,
-    failedAttempts INT,
-    lockTime DATETIME,
-    resetToken VARCHAR(255)
+    account_non_locked BOOLEAN default true,
+    failed_attempts INT,
+    lock_time DATETIME,
+    reset_token VARCHAR(255)
 );
 
 CREATE TABLE Category (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255),
-    imageName VARCHAR(255),
-    isActive BOOLEAN
+    image_name VARCHAR(255),
+    is_active BOOLEAN
 );
 
 CREATE TABLE Product (
@@ -35,8 +35,8 @@ CREATE TABLE Product (
     stock INT,
     image VARCHAR(255),
     discount INT,
-    discountPrice DOUBLE,
-    isActive BOOLEAN
+    discount_price DOUBLE,
+    is_active BOOLEAN
 );
 
 CREATE TABLE Cart (
@@ -46,57 +46,39 @@ CREATE TABLE Cart (
     FOREIGN KEY (product_id) REFERENCES Product(id)
 );
 
-CREATE TABLE OrderAddress (
+CREATE TABLE order_address (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    firstName VARCHAR(255),
-    lastName VARCHAR(255),
+    first_name VARCHAR(255),
+    last_name VARCHAR(255),
     email VARCHAR(255),
-    mobileNo VARCHAR(20),
+    mobile_no VARCHAR(20),
     address TEXT,
     city VARCHAR(100),
     state VARCHAR(100),
     pincode VARCHAR(20)
 );
 
-CREATE TABLE ProductOrder (
+CREATE TABLE product_order (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    orderId VARCHAR(100),
-    orderDate DATE,
+    order_id VARCHAR(100),
+    order_date DATE,
     product_id INT,
     price DOUBLE,
     quantity INT,
     user_id INT,
     status VARCHAR(100),
-    paymentType VARCHAR(100),
-    orderAddress_id INT,
+    payment_type VARCHAR(100),
+    order_address_id INT,
     FOREIGN KEY (product_id) REFERENCES Product(id),
     FOREIGN KEY (user_id) REFERENCES UserDtls(id),
-    FOREIGN KEY (orderAddress_id) REFERENCES OrderAddress(id)
+    FOREIGN KEY (order_address_id) REFERENCES OrderAddress(id)
 );
 
-INSERT INTO UserDtls (name, mobileNumber, email, address, city, pincode, password, profileImage, role, isEnable, accountNonLocked, failedAttempts, lockTime, resetToken) VALUES
-('User1', '0900000001', 'user1@example.com', '123 Street 1', 'City1', '700001', 'pass1', 'profile1.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User2', '0900000002', 'user2@example.com', '123 Street 2', 'City2', '700002', 'pass2', 'profile2.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User3', '0900000003', 'user3@example.com', '123 Street 3', 'City3', '700003', 'pass3', 'profile3.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User4', '0900000004', 'user4@example.com', '123 Street 4', 'City4', '700004', 'pass4', 'profile4.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User5', '0900000005', 'user5@example.com', '123 Street 5', 'City5', '700005', 'pass5', 'profile5.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User6', '0900000006', 'user6@example.com', '123 Street 6', 'City6', '700006', 'pass6', 'profile6.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User7', '0900000007', 'user7@example.com', '123 Street 7', 'City7', '700007', 'pass7', 'profile7.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User8', '0900000008', 'user8@example.com', '123 Street 8', 'City8', '700008', 'pass8', 'profile8.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User9', '0900000009', 'user9@example.com', '123 Street 9', 'City9', '700009', 'pass9', 'profile9.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User10', '0900000010', 'user10@example.com', '123 Street 10', 'City10', '7000010', 'pass10', 'profile10.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User11', '0900000011', 'user11@example.com', '123 Street 11', 'City11', '7000011', 'pass11', 'profile11.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User12', '0900000012', 'user12@example.com', '123 Street 12', 'City12', '7000012', 'pass12', 'profile12.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User13', '0900000013', 'user13@example.com', '123 Street 13', 'City13', '7000013', 'pass13', 'profile13.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User14', '0900000014', 'user14@example.com', '123 Street 14', 'City14', '7000014', 'pass14', 'profile14.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User15', '0900000015', 'user15@example.com', '123 Street 15', 'City15', '7000015', 'pass15', 'profile15.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User16', '0900000016', 'user16@example.com', '123 Street 16', 'City16', '7000016', 'pass16', 'profile16.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User17', '0900000017', 'user17@example.com', '123 Street 17', 'City17', '7000017', 'pass17', 'profile17.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User18', '0900000018', 'user18@example.com', '123 Street 18', 'City18', '7000018', 'pass18', 'profile18.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User19', '0900000019', 'user19@example.com', '123 Street 19', 'City19', '7000019', 'pass19', 'profile19.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL),
-('User20', '0900000020', 'user20@example.com', '123 Street 20', 'City20', '7000020', 'pass20', 'profile20.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL);
+INSERT INTO UserDtls (name, mobile_number, email, address, city, pincode, password, profile_image, role, is_enable, account_non_locked, failed_attempts, lock_time, reset_token) VALUES
+('Admin', '0900000001', 'biyeo126@gmail.com', '123 Street 1', 'City1', '700001', '$2a$12$oAWEkaiyBLa.l2Fof9vJve/26NNBG2DaS6Dh45asD2CpKZxhla0F.', 'profile1.jpg', 'ADMIN', TRUE, TRUE, 0, NULL, NULL),
+('User', '0900000002', 'user@example.com', '123 Street 2', 'City2', '700002', 'pass2', 'profile1.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL);
 
-INSERT INTO Category (name, imageName, isActive) VALUES
+INSERT INTO Category (name, image_name, is_active) VALUES
 ('Laptop', 'acer_nitro.jpg', TRUE),
 ('Headphone', 'bose.jpg', TRUE),
 ('Smartphone', 'cutwif.jpg', TRUE),
@@ -104,7 +86,7 @@ INSERT INTO Category (name, imageName, isActive) VALUES
 ('Monitorgaming', 'philips_m.jpg', TRUE),
 ('Faxingmachine', 'brother.jpg', TRUE);
 
-INSERT INTO Product (title, description, category, price, stock, image, discount, discountPrice, isActive) VALUES
+INSERT INTO Product (title, description, category, price, stock, image, discount, discount_price, is_active) VALUES
 ('Bose Headphone', 'Bose Headphone - violet gaming headphone', 'Headphone', 146000, 17, 'bose.jpg', 10, 131400, TRUE),
 ('Acer Nitro Gaming Laptop', 'Acer Nitro Gaming Laptop - High performance', 'Laptop', 36000000, 38, 'acer_nitro.jpg', 12, 31680000, TRUE),
 ('Asus Gaming Laptop', 'Asus Gaming Laptop - High performance', 'Laptop', 30000000, 17, 'asus.jpg', 20, 24000000, TRUE),

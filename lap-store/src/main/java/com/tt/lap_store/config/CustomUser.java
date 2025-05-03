@@ -19,7 +19,7 @@ public class CustomUser implements UserDetails {
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		SimpleGrantedAuthority authority = new SimpleGrantedAuthority(user.getRole());
+		SimpleGrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + user.getRole());
 		return Arrays.asList(authority);
 	}
 
@@ -40,7 +40,7 @@ public class CustomUser implements UserDetails {
 
 	@Override
 	public boolean isAccountNonLocked() {
-		return user.getAccountNonLocked();
+		return Boolean.TRUE.equals(user.getAccountNonLocked());
 	}
 
 	@Override

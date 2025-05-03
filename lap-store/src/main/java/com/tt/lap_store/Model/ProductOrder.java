@@ -7,14 +7,13 @@ import java.time.LocalDate;
 
 @Data
 @Entity
+@Table(name = "productorder")
 public class ProductOrder {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
     private String orderId;
-
     private LocalDate orderDate;
 
     @ManyToOne
@@ -28,7 +27,6 @@ public class ProductOrder {
     private UserDtls user;
 
     private String status;
-
     private String paymentType;
 
     @OneToOne(cascade = CascadeType.ALL)

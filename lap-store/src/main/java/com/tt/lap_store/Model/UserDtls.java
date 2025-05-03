@@ -1,15 +1,13 @@
 package com.tt.lap_store.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 import java.util.Date;
 
 @Data
 @Entity
+@Table(name = "userdtls")
 public class UserDtls {
 
     @Id
@@ -26,9 +24,9 @@ public class UserDtls {
     private String password;
     private String profileImage;
     private String role;
-    private Boolean isEnable;
-    private Boolean accountNonLocked;
-    private Integer failedAttempts;
+    private Boolean isEnable = true;
+    private Boolean accountNonLocked = true;
+    private Integer failedAttempts = 0;
     private Date lockTime;
     private String resetToken;
 }
