@@ -4,29 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating dtb">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6072ced0-b9f3-404d-9515-392e5719f220/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw/schema/INFORMATION_SCHEMA.NBgcMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9b3d1f77-81b6-4a70-8e67-8f60f3b199ec/storage_v2/_src_/database/TESTDB.kGhKkw/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
+    <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Connecting database (Almost done)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/shopping_cart_db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/shopping_cart_db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/CustomUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/config/CustomUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/view_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/acer_nitro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/acer_nitro.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/eromonic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/eromonic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/laptop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/laptop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/philips_m.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/static/image/category_img/philips_m.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +57,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -222,7 +208,7 @@
       <workItem from="1746234281361" duration="385000" />
       <workItem from="1746235130601" duration="985000" />
       <workItem from="1746238995318" duration="1644000" />
-      <workItem from="1746251769593" duration="4171000" />
+      <workItem from="1746251769593" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -384,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746180120317</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Connecting database (Almost done)">
+      <option name="closed" value="true" />
+      <created>1746256018826</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746256018826</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +416,8 @@
     <MESSAGE value="Updating linking images banner" />
     <MESSAGE value="Updating" />
     <MESSAGE value="Updating dtb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating dtb" />
+    <MESSAGE value="Connecting database (Almost done)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connecting database (Almost done)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/project$LapStoreApplication.ic" NAME="LapStoreApplication Coverage Results" MODIFIED="1742107266782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
