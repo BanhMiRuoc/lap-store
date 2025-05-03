@@ -73,7 +73,7 @@ public class CommonUtil {
 		msg=msg.replace("[[name]]",order.getOrderAddress().getFirstName());
 		msg=msg.replace("[[orderStatus]]",status);
 		msg=msg.replace("[[productName]]", order.getProduct().getTitle());
-		msg=msg.replace("[[category]]", order.getProduct().getCategory());
+		msg=msg.replace("[[category]]", order.getProduct().getCategory().getName());
 		msg=msg.replace("[[quantity]]", order.getQuantity().toString());
 		msg=msg.replace("[[price]]", order.getPrice().toString());
 		msg=msg.replace("[[paymentType]]", order.getPaymentType());

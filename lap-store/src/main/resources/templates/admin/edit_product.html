@@ -43,7 +43,7 @@
 									<div class="mb-3 col">
 										<label>Category</label> <select class="form-control"
 											name="category">
-											<option>[[${product.category}]]</option>
+											<option>[[${product.category.name}]]</option>
 											<option th:each="c:${categories}">[[${c.name}]]</option>
 										</select>
 									</div>

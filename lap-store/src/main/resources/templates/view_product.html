@@ -37,7 +37,7 @@
 							<th:block th:unless="${product.stock>0}">
 								<span class="badge bg-warning">out of stock</span>
 							</th:block>
-							<br> Category: [[${product.category}]]<br> Policy : 7
+							<br> Category: [[${product.category.name}]]<br> Policy : 7
 							Days Replacement & Return
 						</p>
 						<p class="fs-5 fw-bold">
