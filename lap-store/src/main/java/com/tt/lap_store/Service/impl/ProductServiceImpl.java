@@ -108,7 +108,7 @@ public class ProductServiceImpl implements ProductService {
 		if (ObjectUtils.isEmpty(category)) {
 			products = productRepository.findByIsActiveTrue();
 		} else {
-			products = productRepository.findByCategory(category);
+			products = productRepository.findByCategoryName(category);
 		}
 
 		return products;
@@ -116,7 +116,7 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<Product> searchProduct(String ch) {
-		return productRepository.findByTitleContainingIgnoreCaseOrCategoryContainingIgnoreCase(ch, ch);
+		return productRepository.searchByTitleOrCategoryName(ch, ch);
 	}
 
 	@Override
@@ -134,7 +134,7 @@ public class ProductServiceImpl implements ProductService {
 		if (ObjectUtils.isEmpty(category)) {
 			pageProduct = productRepository.findByIsActiveTrue(pageable);
 		} else {
-			pageProduct = productRepository.findByCategory(pageable, category);
+			pageProduct = productRepository.findByCategoryName(category, pageable);
 		}
 		return pageProduct;
 	}
@@ -145,9 +145,7 @@ public class ProductServiceImpl implements ProductService {
 		Page<Product> pageProduct = null;
 		Pageable pageable = PageRequest.of(pageNo, pageSize);
 
-		pageProduct = productRepository.findByisActiveTrueAndTitleContainingIgnoreCaseOrCategoryContainingIgnoreCase(ch,
-				ch, pageable);
-
+		pageProduct = productRepository.searchActiveByTitleOrCategoryName(ch, ch, pageable);
 //		if (ObjectUtils.isEmpty(category)) {
 //			pageProduct = productRepository.findByIsActiveTrue(pageable);
 //		} else {
