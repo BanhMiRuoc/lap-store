@@ -1,11 +1,15 @@
 .card-sh {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 .cat-div {
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .text-label {
-    font-size: 70%;
-    text-align: left;
+  font-size: 70%;
+  text-align: left;
+}
+
+.error {
+  color: red;
 }
