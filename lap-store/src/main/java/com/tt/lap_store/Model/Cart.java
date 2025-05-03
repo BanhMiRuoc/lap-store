@@ -6,8 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Data
-@Getter
-@Setter
 @Entity
 @Table(name = "cart")
 public class Cart {
@@ -29,5 +27,43 @@ public class Cart {
 
     @Transient
     private Double totalOrderPrice;
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public Product getProduct() {
+        return product;
+    }
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+    public UserDtls getUser() {
+        return user;
+    }
+    public void setUser(UserDtls user) {
+        this.user = user;
+    }
+    public Integer getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+    public Double getTotalPrice() {
+        return totalPrice;
+    }
+    public void setTotalPrice(Double totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+    public Double getTotalOrderPrice() {
+        return totalOrderPrice;
+    }
+    public void setTotalOrderPrice(Double totalOrderPrice) {
+        this.totalOrderPrice = totalOrderPrice;
+    }
+
 
 }

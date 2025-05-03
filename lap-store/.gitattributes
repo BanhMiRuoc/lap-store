@@ -1,2 +1,2 @@
-/mvnw text eol=lf
-*.cmd text eol=crlf
+/mvnw com.tt.lap_store.text eol=lf
+*.cmd com.tt.lap_store.text eol=crlf

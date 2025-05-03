@@ -2,10 +2,14 @@ package com.tt.lap_store.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.time.LocalDate;
 
 @Data
+@Getter
+@Setter
 @Entity
 @Table(name = "productorder")
 public class ProductOrder {
@@ -31,4 +35,65 @@ public class ProductOrder {
 
     @OneToOne(cascade = CascadeType.ALL)
     private OrderAddress orderAddress;
+
+    public Integer getId() {
+        return id;
+    }
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    public String getOrderId() {
+        return orderId;
+    }
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+    public LocalDate getOrderDate() {
+        return orderDate;
+    }
+    public void setOrderDate(LocalDate orderDate) {
+        this.orderDate = orderDate;
+    }
+    public Product getProduct() {
+        return product;
+    }
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+    public Double getPrice() {
+        return price;
+    }
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+    public Integer getQuantity() {
+        return quantity;
+    }
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+    public UserDtls getUser() {
+        return user;
+    }
+    public void setUser(UserDtls user) {
+        this.user = user;
+    }
+    public String getStatus() {
+        return status;
+    }
+    public void setStatus(String status) {
+        this.status = status;
+    }
+    public String getPaymentType() {
+        return paymentType;
+    }
+    public void setPaymentType(String paymentType) {
+        this.paymentType = paymentType;
+    }
+    public OrderAddress getOrderAddress() {
+        return orderAddress;
+    }
+    public void setOrderAddress(OrderAddress orderAddress) {
+        this.orderAddress = orderAddress;
+    }
 }
