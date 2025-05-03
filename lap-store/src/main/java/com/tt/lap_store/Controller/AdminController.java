@@ -1,18 +1,25 @@
 package com.tt.lap_store.Controller;
 
+
+import com.tt.lap_store.*;
 import com.tt.lap_store.Model.Category;
 import com.tt.lap_store.Model.Product;
-import com.tt.lap_store.Service.CategoryService;
+import com.tt.lap_store.Model.ProductOrder;
+import com.tt.lap_store.Model.UserDtls;
+import com.tt.lap_store.Service.*;
+import com.tt.lap_store.Util.CommonUtil;
+import com.tt.lap_store.Util.OrderStatus;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.domain.Page;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.ModelAndView;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -107,7 +114,7 @@ public class AdminController {
             if (ObjectUtils.isEmpty(categorySaved)) {
                 session.setAttribute("errorMsg", "Category not saved ! Internal server error");
             } else {
-                File saveFile = new ClassPathResource("static/image").getFile();
+                File saveFile = new ClassPathResource("static/image/category_img").getFile();
                 Path path = Paths.get(saveFile.getAbsolutePath()+File.separator+"category_img"+File.separator+file.getOriginalFilename());
 
 //                System.out.println(path);
@@ -149,7 +156,7 @@ public class AdminController {
 
             if(!file.isEmpty()) {
 
-                File saveFile = new ClassPathResource("static/image").getFile();
+                File saveFile = new ClassPathResource("static/image/category_img").getFile();
                 Path path = Paths.get(saveFile.getAbsolutePath()+File.separator+"category_img"+File.separator+file.getOriginalFilename());
 
 //                System.out.println(path);
@@ -177,7 +184,7 @@ public class AdminController {
 
         if (!ObjectUtils.isEmpty(saveProduct)) {
 
-            File saveFile = new ClassPathResource("static/img").getFile();
+            File saveFile = new ClassPathResource("static/image/product_img").getFile();
 
             Path path = Paths.get(saveFile.getAbsolutePath() + File.separator + "product_img" + File.separator
                     + image.getOriginalFilename());
@@ -329,7 +336,7 @@ public class AdminController {
                                 @RequestParam(name = "pageNo", defaultValue = "0") Integer pageNo,
                                 @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize) {
 
-        if (orderId != null && orderId.length() > 0) {
+        if (orderId != null && !orderId.isEmpty()) {
 
             ProductOrder order = orderService.getOrdersByOrderId(orderId.trim());
 
@@ -374,7 +381,7 @@ public class AdminController {
 
         if (!ObjectUtils.isEmpty(saveUser)) {
             if (!file.isEmpty()) {
-                File saveFile = new ClassPathResource("static/img").getFile();
+                File saveFile = new ClassPathResource("static/image/profile_img").getFile();
 
                 Path path = Paths.get(saveFile.getAbsolutePath() + File.separator + "profile_img" + File.separator
                         + file.getOriginalFilename());
@@ -420,7 +427,7 @@ public class AdminController {
             if (ObjectUtils.isEmpty(updateUser)) {
                 session.setAttribute("errorMsg", "Password not updated !! Error in server");
             } else {
-                session.setAttribute("succMsg", "Password Updated sucessfully");
+                session.setAttribute("succMsg", "Password Updated successfully");
             }
         } else {
             session.setAttribute("errorMsg", "Current Password incorrect");

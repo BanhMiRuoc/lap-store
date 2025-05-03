@@ -5,6 +5,8 @@ import lombok.*;
 
 @Entity
 @Table
+@Getter @Setter
+@Data
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,25 +15,20 @@ public class Category {
     private String imageName;
     private Boolean isActive;
 
-    // Getter and Setter for imageName
-    public String getImageName() {
-        return imageName;
-    }
-
     public void setImageName(String imageName) {
         this.imageName = imageName;
     }
 
-    // Getter and Setter for name
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
+    public String getImageName() {
+        return imageName;
+    }
 
-    // Getter and Setter for id
     public int getId() {
         return id;
     }
@@ -39,12 +36,9 @@ public class Category {
     public void setId(int id) {
         this.id = id;
     }
-
-    // Getter and Setter for isActive
     public Boolean getIsActive() {
         return isActive;
     }
-
     public void setIsActive(Boolean isActive) {
         this.isActive = isActive;
     }
