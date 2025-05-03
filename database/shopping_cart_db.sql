@@ -12,7 +12,7 @@ CREATE TABLE user_dtls (
     password VARCHAR(255),
     profile_image VARCHAR(255),
     role VARCHAR(50),
-    isEnable BOOLEAN,
+    is_enable BOOLEAN,
     account_non_locked BOOLEAN default true,
     failed_attempts INT,
     lock_time DATETIME,
@@ -70,11 +70,11 @@ CREATE TABLE product_order (
     payment_type VARCHAR(100),
     order_address_id INT,
     FOREIGN KEY (product_id) REFERENCES Product(id),
-    FOREIGN KEY (user_id) REFERENCES UserDtls(id),
-    FOREIGN KEY (order_address_id) REFERENCES OrderAddress(id)
+    FOREIGN KEY (user_id) REFERENCES user_dtls(id),
+    FOREIGN KEY (order_address_id) REFERENCES order_address(id)
 );
 
-INSERT INTO UserDtls (name, mobile_number, email, address, city, pincode, password, profile_image, role, is_enable, account_non_locked, failed_attempts, lock_time, reset_token) VALUES
+INSERT INTO user_dtls (name, mobile_number, email, address, city, pincode, password, profile_image, role, is_enable, account_non_locked, failed_attempts, lock_time, reset_token) VALUES
 ('Admin', '0900000001', 'biyeo126@gmail.com', '123 Street 1', 'City1', '700001', '$2a$12$oAWEkaiyBLa.l2Fof9vJve/26NNBG2DaS6Dh45asD2CpKZxhla0F.', 'profile1.jpg', 'ADMIN', TRUE, TRUE, 0, NULL, NULL),
 ('User', '0900000002', 'user@example.com', '123 Street 2', 'City2', '700002', 'pass2', 'profile1.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL);
 
