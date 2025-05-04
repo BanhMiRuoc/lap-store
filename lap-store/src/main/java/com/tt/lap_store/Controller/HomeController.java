@@ -158,8 +158,23 @@ public class HomeController {
             session.setAttribute("errorMsg", "Email already exist");
         } else {
             String imageName = file.isEmpty() ? "default.jpg" : file.getOriginalFilename();
-            user.setProfileImage(imageName);
-            UserDtls saveUser = userService.saveUser(user);
+            // Builder Pattern
+            UserDtls newUser = UserDtls.builder()
+                    .name(user.getName())
+                    .email(user.getEmail())
+                    .mobileNumber(user.getMobileNumber())
+                    .address(user.getAddress())
+                    .city(user.getCity())
+                    .pincode(user.getPincode())
+                    .password(passwordEncoder.encode(user.getPassword()))
+                    .profileImage(imageName)
+                    .role("ROLE_USER")
+                    .isEnable(true)
+                    .accountNonLocked(true)
+                    .failedAttempts(0)
+                    .build();
+            //
+            UserDtls saveUser = userService.saveUser(newUser);
 
             if (!ObjectUtils.isEmpty(saveUser)) {
                 if (!file.isEmpty()) {

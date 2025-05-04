@@ -6,7 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="67ccdc12-5f02-49be-a7e2-28c9cd6d7ef1" name="Changes" comment="Updating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lap-store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/ProductOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Model/UserDtls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/java/com/tt/lap_store/Service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lap-store/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +231,7 @@
       <workItem from="1746323538341" duration="6418000" />
       <workItem from="1746337191867" duration="590000" />
       <workItem from="1746349343036" duration="3258000" />
-      <workItem from="1746361958813" duration="478000" />
+      <workItem from="1746361958813" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="init basecode of project">
       <option name="closed" value="true" />
@@ -480,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746337637015</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Updating">
+      <option name="closed" value="true" />
+      <created>1746362740196</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1746362740196</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -376,8 +376,22 @@ public class AdminController {
             throws IOException {
 
         String imageName = file.isEmpty() ? "default.jpg" : file.getOriginalFilename();
-        user.setProfileImage(imageName);
-        UserDtls saveUser = userService.saveAdmin(user);
+        // Builder Pattern
+        UserDtls newAdmin = UserDtls.builder()
+                .name(user.getName())
+                .email(user.getEmail())
+                .mobileNumber(user.getMobileNumber())
+                .address(user.getAddress())
+                .city(user.getCity())
+                .pincode(user.getPincode())
+                .password(passwordEncoder.encode(user.getPassword()))
+                .profileImage(imageName)
+                .role("ROLE_ADMIN")
+                .isEnable(true)
+                .accountNonLocked(true)
+                .failedAttempts(0)
+                .build();
+        UserDtls saveUser = userService.saveAdmin(newAdmin);
 
         if (!ObjectUtils.isEmpty(saveUser)) {
             if (!file.isEmpty()) {

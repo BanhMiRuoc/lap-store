@@ -40,32 +40,29 @@ public class OrderServiceImpl implements OrderService {
 		List<Cart> carts = cartRepository.findByUserId(userid);
 
 		for (Cart cart : carts) {
-
-			ProductOrder order = new ProductOrder();
-
-			order.setOrderId(UUID.randomUUID().toString());
-			order.setOrderDate(LocalDate.now());
-
-			order.setProduct(cart.getProduct());
-			order.setPrice(cart.getProduct().getDiscountPrice());
-
-			order.setQuantity(cart.getQuantity());
-			order.setUser(cart.getUser());
-
-			order.setStatus(OrderStatus.IN_PROGRESS.getName());
-			order.setPaymentType(orderRequest.getPaymentType());
-
-			OrderAddress address = new OrderAddress();
-			address.setFirstName(orderRequest.getFirstName());
-			address.setLastName(orderRequest.getLastName());
-			address.setEmail(orderRequest.getEmail());
-			address.setMobileNo(orderRequest.getMobileNo());
-			address.setAddress(orderRequest.getAddress());
-			address.setCity(orderRequest.getCity());
-			address.setState(orderRequest.getState());
-			address.setPincode(orderRequest.getPincode());
-
-			order.setOrderAddress(address);
+			// Builder Pattern
+			OrderAddress address = OrderAddress.builder()
+					.firstName(orderRequest.getFirstName())
+					.lastName(orderRequest.getLastName())
+					.email(orderRequest.getEmail())
+					.mobileNo(orderRequest.getMobileNo())
+					.address(orderRequest.getAddress())
+					.city(orderRequest.getCity())
+					.state(orderRequest.getState())
+					.pincode(orderRequest.getPincode())
+					.build();
+			// Builder Pattern
+			ProductOrder order = ProductOrder.builder()
+					.orderId(UUID.randomUUID().toString())
+					.orderDate(LocalDate.now())
+					.product(cart.getProduct())
+					.price(cart.getProduct().getDiscountPrice())
+					.quantity(cart.getQuantity())
+					.user(cart.getUser())
+					.status(OrderStatus.IN_PROGRESS.getName())
+					.paymentType(orderRequest.getPaymentType())
+					.orderAddress(address)
+					.build();
 
 			ProductOrder saveOrder = orderRepository.save(order);
 			commonUtil.sendMailForProductOrder(saveOrder, "success");

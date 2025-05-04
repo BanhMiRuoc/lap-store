@@ -1,10 +1,16 @@
 package com.tt.lap_store.Model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 public class OrderAddress {
     @Id
@@ -23,59 +29,4 @@ public class OrderAddress {
     private String state;
 
     private String pincode;
-
-    public Integer getId() {
-        return id;
-    }
-    public void setId(Integer id) {
-        this.id = id;
-    }
-    public String getFirstName() {
-        return firstName;
-    }
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-    public String getLastName() {
-        return lastName;
-    }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-    public String getEmail() {
-        return email;
-    }
-    public void setEmail(String email) {
-        this.email = email;
-    }
-    public String getMobileNo() {
-        return mobileNo;
-    }
-    public void setMobileNo(String mobileNo) {
-        this.mobileNo = mobileNo;
-    }
-    public String getAddress() {
-        return address;
-    }
-    public void setAddress(String address) {
-        this.address = address;
-    }
-    public String getCity() {
-        return city;
-    }
-    public void setCity(String city) {
-        this.city = city;
-    }
-    public String getState() {
-        return state;
-    }
-    public void setState(String state) {
-        this.state = state;
-    }
-    public String getPincode() {
-        return pincode;
-    }
-    public void setPincode(String pincode) {
-        this.pincode = pincode;
-    }
 }
