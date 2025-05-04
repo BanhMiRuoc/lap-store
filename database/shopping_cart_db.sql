@@ -76,8 +76,8 @@ CREATE TABLE product_order (
 );
 
 INSERT INTO user_dtls (name, mobile_number, email, address, city, pincode, password, profile_image, role, is_enable, account_non_locked, failed_attempts, lock_time, reset_token) VALUES
-('Admin', '0900000001', 'biyeo126@gmail.com', '123 Street 1', 'City1', '700001', '$2a$12$oAWEkaiyBLa.l2Fof9vJve/26NNBG2DaS6Dh45asD2CpKZxhla0F.', 'profile1.jpg', 'ADMIN', TRUE, TRUE, 0, NULL, NULL),
-('User', '0900000002', 'user@example.com', '123 Street 2', 'City2', '700002', 'pass2', 'profile1.jpg', 'USER', TRUE, TRUE, 0, NULL, NULL);
+('Admin', '0900000001', 'biyeo126@gmail.com', '123 Street 1', 'City1', '700001', '$2a$12$oAWEkaiyBLa.l2Fof9vJve/26NNBG2DaS6Dh45asD2CpKZxhla0F.', 'profile1.jpg', 'ROLE_ADMIN', TRUE, TRUE, 0, NULL, NULL),
+('User', '0900000002', 'user@example.com', '123 Street 2', 'City2', '700002', 'pass2', 'profile1.jpg', 'ROLE_USER', TRUE, TRUE, 0, NULL, NULL);
 
 INSERT INTO Category (name, image_name, is_active) VALUES
 ('Laptop', 'acer_nitro.jpg', TRUE),

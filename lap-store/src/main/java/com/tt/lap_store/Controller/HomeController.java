@@ -8,6 +8,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.security.Principal;
+import java.util.Comparator;
 import java.util.List;
 import java.util.UUID;
 
@@ -74,16 +75,25 @@ public class HomeController {
     }
 
     @GetMapping("/")
-    public String index(Model m) {
+    public String index(Model m, @RequestParam(value = "category", required = false) String categoryName) {
+        List<Category> allActiveCategory = categoryService.getAllActiveCategory()
+                .stream()
+                .sorted(Comparator.comparing(Category::getId))
+                .limit(6)
+                .toList();
 
-        List<Category> allActiveCategory = categoryService.getAllActiveCategory().stream()
-                .sorted((c1, c2) -> c2.getId()).limit(6).toList();
-        List<Product> allActiveProducts = productService.getAllActiveProducts("").stream()
-                .sorted((p1, p2) -> p2.getId().compareTo(p1.getId())).limit(8).toList();
+        List<Product> allActiveProducts;
+        if (categoryName == null || categoryName.isBlank()) {
+            allActiveProducts = productService.getAllActiveProducts(); // load tất cả sản phẩm active
+        } else {
+            allActiveProducts = productService.getAllActiveProductsByCategoryName(categoryName);
+        }
+
         m.addAttribute("category", allActiveCategory);
         m.addAttribute("products", allActiveProducts);
         return "index";
     }
+
 
     @GetMapping("/signin")
     public String login() {
@@ -96,28 +106,30 @@ public class HomeController {
     }
 
     @GetMapping("/products")
-    public String products(Model m, @RequestParam(value = "category", defaultValue = "") String category,
+    public String products(Model m,
+                           @RequestParam(value = "category", defaultValue = "") String categoryName,
                            @RequestParam(name = "pageNo", defaultValue = "0") Integer pageNo,
                            @RequestParam(name = "pageSize", defaultValue = "12") Integer pageSize,
                            @RequestParam(defaultValue = "") String ch) {
 
         List<Category> categories = categoryService.getAllActiveCategory();
-        m.addAttribute("paramValue", category);
+        m.addAttribute("paramValue", categoryName); // truyền name thay vì object
         m.addAttribute("categories", categories);
 
-//		List<Product> products = productService.getAllActiveProducts(category);
-//		m.addAttribute("products", products);
-        Page<Product> page = null;
+        Page<Product> page;
+
         if (StringUtils.isEmpty(ch)) {
+            // bạn cần tự tìm Category từ categoryName
+            Category category = categoryService.getCategoryByName(categoryName); // cần tạo method này
             page = productService.getAllActiveProductPagination(pageNo, pageSize, category);
         } else {
+            Category category = categoryService.getCategoryByName(categoryName);
             page = productService.searchActiveProductPagination(pageNo, pageSize, category, ch);
         }
 
         List<Product> products = page.getContent();
         m.addAttribute("products", products);
         m.addAttribute("productsSize", products.size());
-
         m.addAttribute("pageNo", page.getNumber());
         m.addAttribute("pageSize", pageSize);
         m.addAttribute("totalElements", page.getTotalElements());
@@ -127,6 +139,7 @@ public class HomeController {
 
         return "product";
     }
+
 
     @GetMapping("/product/{id}")
     public String product(@PathVariable int id, Model m) {

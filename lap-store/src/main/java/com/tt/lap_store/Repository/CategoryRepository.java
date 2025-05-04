@@ -12,4 +12,5 @@ public interface CategoryRepository extends JpaRepository<Category, Integer> {
 
 	public List<Category> findByIsActiveTrue();
 
+	public Category findByName(String name);
 }

@@ -2,6 +2,7 @@ package com.tt.lap_store.Repository;
 
 import java.util.List;
 
+import com.tt.lap_store.Model.Category;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -16,17 +17,18 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 
 	Page<Product> findByIsActiveTrue(Pageable pageable);
 
-	@Query("SELECT p FROM Product p WHERE LOWER(p.category.name) = LOWER(:name)")
-	List<Product> findByCategoryName(@Param("name") String name);
+	List<Product> findByCategoryName(Category category);
 
+	List<Product> findByIsActiveTrueAndCategoryName(String categoryName);
+
+	Page<Product> findByIsActiveTrueAndCategory(Pageable pageable, String category);
+
+	List<Product> findByCategoryNameIgnoreCaseAndIsActiveTrue(String categoryName);
 
 	@Query("SELECT p FROM Product p WHERE LOWER(p.title) LIKE LOWER(CONCAT('%', :ch, '%')) OR LOWER(p.category.name) LIKE LOWER(CONCAT('%', :ch2, '%'))")
 	List<Product> searchByTitleOrCategoryName(@Param("ch") String ch, @Param("ch2") String ch2);
 
-
-	@Query("SELECT p FROM Product p WHERE LOWER(p.category.name) = LOWER(:name)")
-	Page<Product> findByCategoryName(@Param("name") String name, Pageable pageable);
-
+	Page<Product> findByCategory(Category category, Pageable pageable);
 
 	Page<Product> findByTitleContainingIgnoreCaseOrCategoryContainingIgnoreCase(String ch, String ch2,
 			Pageable pageable);

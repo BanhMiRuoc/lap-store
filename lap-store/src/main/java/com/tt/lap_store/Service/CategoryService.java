@@ -19,6 +19,9 @@ public interface CategoryService {
 
 	public Category getCategoryById(int id);
 
+	public Category getCategoryByName(String name);
+
+
 	public List<Category> getAllActiveCategory();
 
 	public Page<Category> getAllCategorPagination(Integer pageNo,Integer pageSize);

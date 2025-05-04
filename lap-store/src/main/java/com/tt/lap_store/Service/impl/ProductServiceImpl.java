@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.List;
 
+import com.tt.lap_store.Model.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.domain.Page;
@@ -102,12 +103,18 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public List<Product> getAllActiveProducts(String category) {
+	public List<Product> getAllActiveProducts() {
+		return productRepository.findByIsActiveTrue();
+	}
+
+
+	@Override
+	public List<Product> getAllActiveProducts(Category category) {
 		List<Product> products = null;
 		if (ObjectUtils.isEmpty(category)) {
 			products = productRepository.findByIsActiveTrue();
 		} else {
-			products = productRepository.findByCategoryName(category);
+			products = productRepository.findByCategoryNameIgnoreCaseAndIsActiveTrue(category.getName());
 		}
 
 		return products;
@@ -125,7 +132,7 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public Page<Product> getAllActiveProductPagination(Integer pageNo, Integer pageSize, String category) {
+	public Page<Product> getAllActiveProductPagination(Integer pageNo, Integer pageSize, Category category) {
 
 		Pageable pageable = PageRequest.of(pageNo, pageSize);
 		Page<Product> pageProduct = null;
@@ -133,24 +140,29 @@ public class ProductServiceImpl implements ProductService {
 		if (ObjectUtils.isEmpty(category)) {
 			pageProduct = productRepository.findByIsActiveTrue(pageable);
 		} else {
-			pageProduct = productRepository.findByCategoryName(category, pageable);
+			pageProduct = productRepository.findByCategory(category, pageable);
 		}
 		return pageProduct;
 	}
 
 	@Override
-	public Page<Product> searchActiveProductPagination(Integer pageNo, Integer pageSize, String category, String ch) {
+	public Page<Product> searchActiveProductPagination(Integer pageNo, Integer pageSize, Category category, String ch) {
 
 		Page<Product> pageProduct = null;
 		Pageable pageable = PageRequest.of(pageNo, pageSize);
 
 		pageProduct = productRepository.searchActiveByTitleOrCategoryName(ch, ch, pageable);
-//		if (ObjectUtils.isEmpty(category)) {
-//			pageProduct = productRepository.findByIsActiveTrue(pageable);
-//		} else {
-//			pageProduct = productRepository.findByCategory(pageable, category);
-//		}
+		if (ObjectUtils.isEmpty(category)) {
+			pageProduct = productRepository.findByIsActiveTrue(pageable);
+		} else {
+			pageProduct = productRepository.findByIsActiveTrueAndCategory(pageable, category.getName());
+		}
 		return pageProduct;
+	}
+
+	@Override
+	public List<Product> getAllActiveProductsByCategoryName(String categoryName) {
+		return productRepository.findByCategoryNameIgnoreCaseAndIsActiveTrue(categoryName);
 	}
 
 }
