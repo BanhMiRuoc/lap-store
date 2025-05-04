@@ -17,11 +17,16 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 
 	Page<Product> findByIsActiveTrue(Pageable pageable);
 
-	List<Product> findByCategoryName(Category category);
+	List<Product> findByCategory_Name(String name);
+
+	Page<Product> findByCategory_Name(String name, Pageable pageable);
 
 	List<Product> findByIsActiveTrueAndCategoryName(String categoryName);
 
-	Page<Product> findByIsActiveTrueAndCategory(Pageable pageable, String category);
+	@Query("SELECT p FROM Product p WHERE p.isActive = true AND p.category.name = :categoryName")
+	Page<Product> findByIsActiveTrueAndCategoryName(@Param("categoryName") String categoryName, Pageable pageable);
+
+	Page<Product> findByIsActiveTrueAndCategory(Pageable pageable, Category category);
 
 	List<Product> findByCategoryNameIgnoreCaseAndIsActiveTrue(String categoryName);
 

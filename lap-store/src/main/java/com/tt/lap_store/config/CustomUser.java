@@ -19,8 +19,12 @@ public class CustomUser implements UserDetails {
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
-		SimpleGrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + user.getRole());
-		return Arrays.asList(authority);
+		if (user.getRole() == "ROLE_ADMIN" || user.getRole() == "ROLE_USER") {
+			return Arrays.asList(new SimpleGrantedAuthority(user.getRole()));
+		} else if (user.getRole() == "ADMIN" || user.getRole() == "USER") {
+			return Arrays.asList(new SimpleGrantedAuthority("ROLE_" + user.getRole()));
+		}
+		return Arrays.asList(new SimpleGrantedAuthority(user.getRole()));
 	}
 
 	@Override

@@ -140,7 +140,7 @@ public class ProductServiceImpl implements ProductService {
 		if (ObjectUtils.isEmpty(category)) {
 			pageProduct = productRepository.findByIsActiveTrue(pageable);
 		} else {
-			pageProduct = productRepository.findByCategory(category, pageable);
+			pageProduct = productRepository.findByCategory_Name(category.getName(), pageable);
 		}
 		return pageProduct;
 	}
@@ -155,7 +155,7 @@ public class ProductServiceImpl implements ProductService {
 		if (ObjectUtils.isEmpty(category)) {
 			pageProduct = productRepository.findByIsActiveTrue(pageable);
 		} else {
-			pageProduct = productRepository.findByIsActiveTrueAndCategory(pageable, category.getName());
+			pageProduct = productRepository.findByIsActiveTrueAndCategory(pageable, category);
 		}
 		return pageProduct;
 	}
